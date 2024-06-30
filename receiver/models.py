@@ -19,4 +19,4 @@ class Scanner(models.Model):
         return self.name
 
     class Meta:
-        unique_together = ('account_number', 'name')
+        unique_together = ('accountNumber', 'name')
