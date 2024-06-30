@@ -92,7 +92,7 @@ DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'NAME': 'forexdb',
-       'USER': 'forex_user',
+       'USER': 'forexuser',
        'PASSWORD': '98019801',
        'HOST': 'localhost',
        'PORT': '',
